@@ -1,4 +1,4 @@
-package com.sda.tallinn6.foundamentals.datatypes;
+package com.sda.tallinn6.fundamentals.data.types;
 
 public class CharacterPrimitives {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.sda.tallinn6.foundamentals.classes;
+package com.sda.tallinn6.fundamentals.classes;
 
 public class MyFirstClass {
 

@@ -1,4 +1,4 @@
-package com.sda.tallinn6.foundamentals.operators;
+package com.sda.tallinn6.fundamentals.operators;
 
 public class RelationalOperator {
     public static void main(String[] args) {

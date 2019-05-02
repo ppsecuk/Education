@@ -1,4 +1,4 @@
-package com.sda.tallinn6.foundamentals.classes.statics;
+package com.sda.tallinn6.fundamentals.classes.statics;
 
 public class bicycledemo {
     public static void main(String[] args) {

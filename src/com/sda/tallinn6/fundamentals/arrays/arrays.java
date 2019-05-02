@@ -1,4 +1,4 @@
-package com.sda.tallinn6.foundamentals.arrays;
+package com.sda.tallinn6.fundamentals.arrays;
 
 public class arrays {
 
