@@ -17,9 +17,9 @@ public class task7 {
                 System.out.println("Error message");
             } else if (x > word.length) {
                 System.out.println("Sentence doesn't contain that much words.");
-            //}else if(x=done.equals("done")){
+            }else if(done.equals(scanner.nextLine())){
                 System.exit(0);
-            } else {
+            }else{
                 System.out.println("You entered " + x + " , so result is: " + word[x - 1]);
             }
         }
