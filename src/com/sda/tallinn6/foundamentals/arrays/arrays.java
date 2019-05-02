@@ -9,7 +9,7 @@ public class arrays {
 
         for(int i=0;i<array1.length;i++){
             System.out.println(array1[i]);
-        }
+        }//a
         for (int i=0;i<array2.length;i++) {
             System.out.println(array2[i]);
         }
