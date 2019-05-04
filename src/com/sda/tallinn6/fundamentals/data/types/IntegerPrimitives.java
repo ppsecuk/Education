@@ -23,7 +23,6 @@ public class IntegerPrimitives {
         int myIntegerWithUnderscore2 = 1_00_0;
         System.out.println("Second underscore:" + myIntegerWithUnderscore2);
 
-        //homework : do sum operation with underscore integers
         int myBiggest = Integer.MAX_VALUE;
 
         System.out.println("Maximum int value:");
@@ -37,6 +36,5 @@ public class IntegerPrimitives {
         long myNewBiggest = 2147483650L;
         System.out.println("My new biggest:" + myNewBiggest);
 
-        // homework do overflow operation for minimum
     }
 }

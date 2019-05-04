@@ -2,7 +2,7 @@ package com.sda.tallinn6.fundamentals.practical;
 
 import java.util.Scanner;
 
-public class task9 {
+public class Task9 {
     public static void main(String[] args) {
             System.out.println("Please enter sentence:");
             Scanner scanner = new Scanner(System.in);

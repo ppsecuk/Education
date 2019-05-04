@@ -2,7 +2,7 @@ package com.sda.tallinn6.fundamentals.practical;
 
 import java.util.Scanner;
 
-public class task7 {
+public class Task7 {
     public static void main(String[] args) {
 
         while (true) {

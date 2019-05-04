@@ -2,7 +2,7 @@ package com.sda.tallinn6.fundamentals.practical;
 
 import java.util.Scanner;
 
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         System.out.println("Hi, please enter factorial (<=25). -1 is special command for exit");
         Scanner scanner = new Scanner(System.in);

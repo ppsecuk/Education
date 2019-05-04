@@ -3,7 +3,7 @@ package com.sda.tallinn6.fundamentals.practical;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class task6 {
+public class Task6 {
     public static void main(String[] args) {
         System.out.println("Please enter a sentence. Use 'done' for exit");
         Scanner scanner = new Scanner(System.in);

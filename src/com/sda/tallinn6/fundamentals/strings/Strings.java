@@ -1,6 +1,6 @@
 package com.sda.tallinn6.fundamentals.strings;
 
-public class strings {
+public class Strings {
 
     public static void main(String[] args) {
         String str1 = new String("Paul");

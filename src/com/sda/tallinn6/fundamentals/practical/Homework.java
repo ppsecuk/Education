@@ -2,7 +2,7 @@ package com.sda.tallinn6.fundamentals.practical;
 
 import java.util.Scanner;
 
-public class homework {
+public class Homework {
     public static void main(String[] args) {
         System.out.println("Welcome! Enter your name:");
         Scanner scanner = new Scanner(System.in);

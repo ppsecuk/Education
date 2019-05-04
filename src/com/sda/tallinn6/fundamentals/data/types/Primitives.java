@@ -32,7 +32,7 @@ public class Primitives {
 
 
         // 1.4400000
-        // homework - print money like below:
+        // hw - print money like below:
         // you have to pay 1 euro 44 cent
 
 

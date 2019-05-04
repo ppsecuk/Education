@@ -1,6 +1,6 @@
 package com.sda.tallinn6.fundamentals.arrays;
 
-public class arrays {
+public class Arrays {
 
     public static void main(String[] args) {
         int[] array1 = new int[]{4,89,400};
