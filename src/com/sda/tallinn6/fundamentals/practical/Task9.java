@@ -4,14 +4,17 @@ import java.util.Scanner;
 
 public class Task9 {
     public static void main(String[] args) {
-            System.out.println("Please enter sentence:");
+
             Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Please enter sentence:");
             String sentence = scanner.nextLine();
-
             System.out.println("Please provide some letter");
-            //char x = scanner.next().charAt(0);
+            char providedChar = scanner.next().charAt(0);
 
-        int count=0;
+
+
+        /*int count=0;
         for(char x=scanner.next().charAt(0);x<='z';x++)
         {
             count=0;
@@ -27,6 +30,6 @@ public class Task9 {
             {
                 System.out.println(x+":"+count);
             }
-        }
+        }*/
     }
 }
