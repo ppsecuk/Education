@@ -1,4 +1,4 @@
-package com.sda.tallinn6.fundamentals.practical;
+/*package com.sda.tallinn6.fundamentals.practical;
 
 import java.util.Scanner;
 
@@ -52,7 +52,7 @@ public class Task7 {
 
 
             //Old solution is:
-            System.out.println("Please enter sentence");
+           /* System.out.println("Please enter sentence");
             Scanner scanner = new Scanner(System.in);
             String sentence = scanner.nextLine();
             //String done = new String("done");
@@ -75,3 +75,4 @@ public class Task7 {
         }
     }
 }
+*/
