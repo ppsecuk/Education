@@ -1,0 +1,74 @@
+1. create class Product (name , price, quantity fields)
+create getters and setters
+and also create constructor with name and price,
+
+2. create class SuperMarket
+    will have list of Product
+    * printAllProducts
+    there is a method which will be responsible for printing
+    all its product name and its price
+    *insertProduct
+    Its purpose is just to insert product
+    *removeProduct
+    Its purpose is just to remove product
+    *getIndexOfProduct
+    Its purpose is to find the index of the searched product name
+    If it doesnt find returns -1
+
+3. create class SuperMarketApplication
+it will have a main method
+First we welcome the admin..
+"Welcome Admin to the Super Market Application"
+
+then we will ask
+"What do you want to do: Add - Remove - Done"
+All add remove operations are done.
+If admin writes done this part completed.
+
+
+
+
+
+2. create a class Account (balance, Arraylist of Product )
+    getters and setters
+    method of printAccountInfo => print information of the bought product names and quanitties  and lastly the balance of the account
+    deduct method which will have cost as parameter and it will return true or false.
+    its purpose is to check if you have enough money or not. If you have enough money it will deduct.
+    addUpdateProduct => add to product array list. if it exists in the array list it will increase the quantity.
+    This method is void
+
+
+
+    ---------------------------------------------------------------------------------
+    main method will be there. It will start the application
+    write welcome to the super market admin
+
+    What do you want to do Add - Remove - Done
+
+    Done is DONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE MOVE ON
+    ADD means you will add a new product to the super market memory......
+    You need a name then check if that name already exists in the super market memory. If it exists
+    say heyy dude it already exists. Then ask again what do you want to do....
+
+    If the user inputted name does not exists in the super market memory then ask for the price...
+    Then just put it in the super market memory.
+
+    Then after it is added say that I added it..
+
+    REMOVE means if will remove from the super market memory...
+    Ask what you want to remove...
+    If the item does not exists in the memory. says that it does not exists.
+    if it exists. Remove it then say I removed it...
+
+/////////////////////////////////////////////////////////////////
+Please enter your budget.....
+Craete the budget assigned to this account
+
+
+Then ask what do you want to buy if you are done write done
+if the product name user inserted does not exist in the super market then say that this item does not exist.
+if it exists... Ask how many you want to buy this product
+    Check if there is enough money if there is then add the product to the account with the amount
+    iF not then ask again.. What do you want to buy...
+
+
