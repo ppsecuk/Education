@@ -1,4 +1,4 @@
-package random_tasks.homework.task15;
+package rcom.sda.tallinn6.fundamentals.practical.homework.task15;
 
 public class Account {
 }
