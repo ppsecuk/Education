@@ -1,4 +1,4 @@
-package com.tallinn.four.recap.extra.task1;
+package com.sda.tallinn6.fundamentals.practical.homework.extra.task1;
 
 import java.util.Scanner;
 
