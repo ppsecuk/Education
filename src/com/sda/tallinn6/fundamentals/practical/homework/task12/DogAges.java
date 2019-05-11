@@ -1,4 +1,4 @@
-package random_tasks.homework.task12;
+package com.sda.tallinn6.fundamentals.practical.homework.task12;
 
 import java.util.ArrayList;
 import java.util.List;
