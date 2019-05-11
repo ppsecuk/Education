@@ -1,4 +1,4 @@
-package random_tasks.homework.task10;
+package com.sda.tallinn6.fundamentals.practical.homework.task10;
 
 import java.util.Arrays;
 import java.util.Scanner;
