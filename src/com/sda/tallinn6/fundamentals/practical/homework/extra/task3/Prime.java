@@ -1,6 +1,6 @@
-package com.tallinn.four.recap.extra.task3;
+package com.sda.tallinn6.fundamentals.practical.homework.extra.task3;
 
-import com.tallinn.four.recap.extra.task2.Fibonacci;
+//import com.tallinn.four.recap.extra.task2.Fibonacci;
 
 import java.util.Scanner;
 

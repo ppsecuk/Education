@@ -10,6 +10,9 @@ public class SuperMarket {
 
     private List<Product> listOfProducts = new ArrayList<>();
 
+    public List<Product> getListOfProducts() {
+        return listOfProducts;
+    }
 
     public void printAllProducts() {
         for (int i = 0; i < listOfProducts.size(); i++) {

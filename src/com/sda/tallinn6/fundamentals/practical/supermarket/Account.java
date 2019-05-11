@@ -4,36 +4,57 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Account {
-    private double account;
-    private List<Product> listOfProducts = new ArrayList<>();
+    double balance;
+    List<Product> listOfProducts = new ArrayList<>();
 
-    public double getAccount() {
-        return account;
+    public double getBalance() {
+        return balance;
     }
 
     public Account(double account) {
-        this.account = account;
+        this.balance = account;
     }
 
-    public void setAccount(double account) {
-        this.account = account;
+    public void setBalance(double balance) {
+        this.balance = balance;
 
     }
 
-    public void printAccountInfo(String boughtProducts, int quantity, double balance){
+    public void printAccountInfo(){
+        for (Product boughtProduct : listOfProducts) {
+            System.out.println("Product name: " + boughtProduct.getName() + " Quantity: " + boughtProduct.getQuantity());
+        }
+            System.out.println("Your current balance is: " + balance);
     }
 
-    public boolean deduct(double balance, double FinalSum){
-        if(balance>FinalSum){
+    public boolean deduct(double cost){
+        SuperMarketUtilities superMarketUtilities = new SuperMarketUtilities();
+        cost = superMarketUtilities.round(cost);
+        balance = superMarketUtilities.round(balance);
+        if(balance <cost){
+            System.out.println("You don't have enough money.");
+            return false;
+        }else{
+            balance = balance-cost;
+            balance = superMarketUtilities.round(balance);
             return true;
-            //balance = balance - FinalSum;
-            //System.out.println("OK. You have purchased an item. Your new balance is: " + balance + " EUR.");
-        }return false;
-    }
-
-    public void appUpdateProduct(Product product){
-        for(int i=0;i<listOfProducts.size();i++){
-
         }
     }
+
+    public void appUpdateProduct(String productName, int amount){
+        List<Product> listOfBoughtProducts = new ArrayList<>();
+
+        for (Product boughtExistingProduct : listOfBoughtProducts) {
+            if(boughtExistingProduct.getName().equalsIgnoreCase(productName)){
+                int updatedAmount = boughtExistingProduct.getQuantity()+amount;
+                return;
+            }
+        }Product newProduct = new Product();
+        newProduct.setName(productName);
+        newProduct.setQuantity(amount);
+        listOfBoughtProducts.add(newProduct);
+        System.out.println("Product has been added");
+    }
+
+
 }

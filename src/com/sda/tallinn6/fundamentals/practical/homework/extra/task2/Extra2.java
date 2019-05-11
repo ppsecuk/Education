@@ -1,4 +1,4 @@
-package random_tasks.homework.extra;
+package com.sda.tallinn6.fundamentals.practical.homework.extra.task2;
 
 import java.util.Scanner;
 
