@@ -1,4 +1,4 @@
-package com.tallinn.four.lectures.nineteen;
+package com.sda.tallinn6.fundamentals.lectures.nineteen;
 
 public class Product {
     private String name;
