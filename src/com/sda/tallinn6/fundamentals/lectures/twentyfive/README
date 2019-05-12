@@ -1,0 +1,21 @@
+Harry Potter part 2
+
+Create SpellUtilities
+
+create getRandomNumberInRange method
+    return number min and max value.
+
+
+create cast method
+
+    if spell is existing do the cast.
+    cast healing or damage
+    If spell doesnt exist then print You panicked and did not make any sense
+
+
+
+castDamage method
+    that will decide if the spell succeeded or not. If succeeds then print the damage amount.
+
+castHealing method
+     that will decide if the spell succeeded or not. If succeeds then generate the healing amount also. Dont forget it is channeling spell.

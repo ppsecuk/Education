@@ -1,0 +1,157 @@
+Harry Potter part 1
+
+Spell Class
+Create
+    /**
+     * Spell Word:          Lacarnum Inflamarae
+     * Price:               25
+     * Damage:              10-25
+     * Success Rate         70%
+     * Speed rate           1 smaller faster.
+     */
+
+
+Spells Class
+
+Contains the spells
+Lacarnum Inflamarae => 25(Price),10(min),16(max),70(success),1(speed rate)
+Lumos Solem => 45,17,23,65,2
+Everte Statum => 45,23,29,60,3
+Arania Exumai => 50,30,36,55,4
+Avada Kedavra => 100,100,100,10,5
+Vulnera Sanentur => 25,10,20,70,1
+
+getSpell Method and parameter will be SpellName(String) and it will return the Spell Object.
+
+
+
+CharacterCreation Class
+method validateName parameter will be firstName... It does not accept any space and it will not accept any
+numbers or punctuation.
+"First name is not suitable. You did not enter any name"
+"First name must not contain any space"
+"First name is not suitable. No numbers/Punctuations"
+
+it will return true or false. If true this first name is acceptable. Otherwise return false.
+
+method validateSurname parameter will be firstName... It does not accept any space and it will not accept any
+numbers or punctuation.
+"Surname is not suitable. You did not enter any name"
+"Surname is not suitable. No numbers/Punctuations"
+
+it will return true or false. If true this first name is acceptable. Otherwise return false.
+
+method eraseNonLetters it gets parameter as string. Then it will filter the number and punctuation.
+
+
+
+
+
+
+
+Create Wizard
+health 100 default value
+money 100 default value
+name and surname
+it will have knowledge of the spell names he bought.
+
+Create WizardShop initialize prices.
+Lacarnum Inflamarae => 25
+Lumos Solem => 45
+Everte Statum => 45
+Arania Exumai => 50
+Avada Kedavra => 100
+Vulnera Sanentur => 25
+
+printAllSpells method it will not have any parameter. it will just print
+
+buy method will be void... Its parameters are String requestedSpell and Wizard object.
+
+
+WizardWars MAIN METHOD... First welcome the user
+"Welcome to Wizard Wars. Lets create our character"
+"Please enter your characters' first name"
+"Please enter your characters' surname"
+
+welcome name and surname prepare to die...
+"Welcome to Wizard Shop. " + "Can I take your order? Write spell Name to buy."
+
+prınt all the spells he/she knowsç
+
+
+SpellUtilities class
+
+method getRandomNumberInRange it will return int.... its parameters are int min and int max
+  private int getRandomNumberInRange(int min, int max) {
+
+castDamage method it will return int.... its parameter is nameOfspell (String).
+  public int castDamage(String nameOfSpell){
+
+castHealing it will return int... Its parameter nameOfSpell (String(
+
+cast method it will return integer. .... It will have String parameter spellName
+
+
+
+
+create class Opponent (Check internet what is inheritance in java)
+
+decideSpellName 2 Wizard object one is the opponent and other is the player object
+it will return spellName (String)
+
+
+        /**
+         * Task1: If health of opponent below 45
+         * 50% change to cast healing
+         * 50% there will be below decision
+             * he will get players health
+             * if playerHealth is below 11 he will castFlame
+             * else if playerHealth is below 17 he will castLightening
+             * else if playerHealth is below 23 he will castWind
+             * else if playerHealth is below 30 he will castFireball
+             * else if playerHealth is below 65 he will castDeath
+             * else castHealing
+         */
+        //Lacarnum Inflamarae   Flame
+        //Lumos Solem           Lightening
+        //Everte Statum         Wind
+        //Arania Exumai         Fireball
+        //Avada Kedavra         Death
+        //Vulnera Sanentur      Healing
+          /**
+                     *  Task2: If health of opponent bigger than the player
+                     *          25% change to castLightening
+                     *          25% to castFireball
+                     *          25% to castWind
+                     *          25% to castFlmae
+                     *
+                     */
+
+
+   /**
+             *  Task3: rest of the conditions
+             *          20% change to castLightening
+             *          15% to castFireball
+             *          20% to castWind
+             *          25% to castFlame
+             *          20% to cast healing
+             */
+
+
+Wizard Wars main continue to write...
+
+Wizardshop operation... Buying of the spell if you are done write done...
+then print out the information of the spells he knows..
+
+Duel   operation... it will do duel... In this duel you have to check the spell if you know
+then the opponent spell must be decided...
+
+
+
+
+
+
+
+
+
+

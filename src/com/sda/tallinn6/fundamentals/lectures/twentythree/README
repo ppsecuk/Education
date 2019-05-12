@@ -1,0 +1,24 @@
+Teach HashMap and HashSet.
+
+
+
+    A HashMap cannot contain duplicate keys.
+
+    Java HashMap allows null values and the null key.
+
+    HashMap is an unordered collection. It does not guarantee any specific order of the elements.
+
+    Java HashMap is not thread-safe. You must explicitly synchronize concurrent modifications to the HashMap.
+
+
+
+HashSet cannot contain duplicate values.
+
+HashSet allows null value.
+
+HashSet is an unordered collection. It does not maintain the order in which the elements are inserted.
+
+HashSet internally uses a HashMap to store its elements.
+
+
+
