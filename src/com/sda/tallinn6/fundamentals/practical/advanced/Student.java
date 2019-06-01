@@ -51,4 +51,14 @@ public class Student {
         System.out.println("Students age is: " + this.age);
         System.out.println("Students is male? " + this.isMale);
     }
+
+    @Override // annotation to compiler
+    public String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", isMale=" + isMale +
+                '}';
+    }
 }
