@@ -1,4 +1,4 @@
-package com.tallinn.four.lectures.seventeen;
+package com.sda.tallinn6.fundamentals.lectures.seventeen;
 
 import java.util.Scanner;
 
@@ -6,10 +6,7 @@ public class RockPaperScissor {
 
     public static void main(String[] args) {
 
-
-
-
-        RockPaperScissorsUtilities rockPaperScissorsUtilities = new RockPaperScissorsUtilities();
+        com.tallinn.four.lectures.seventeen.RockPaperScissorsUtilities rockPaperScissorsUtilities = new com.tallinn.four.lectures.seventeen.RockPaperScissorsUtilities();
         Scanner scanner = new Scanner(System.in);
         String[] options = {"rock", "paper", "scissors"};
 
