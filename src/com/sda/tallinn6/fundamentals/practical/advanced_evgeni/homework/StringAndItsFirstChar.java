@@ -1,4 +1,4 @@
-package com.sda.tallinn6.fundamentals.practical.advanced_evgeni;
+package com.sda.tallinn6.fundamentals.practical.advanced_evgeni.homework;
 
 import java.util.Scanner;
 
