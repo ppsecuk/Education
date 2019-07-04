@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class ArrayExercise {
     public static void main(String[] args) {
@@ -22,8 +23,12 @@ public class ArrayExercise {
         //double sum = DoubleStream.of(studentScores).sum();
         //System.out.println("The sum is " + sum);
 
-        List<String> arrayListOfNames = Arrays.asList(studentNames);
+        List<String> arrayListOfNames = Arrays.asList("John", "David", "Tomas");
         List<Double> arrayListOfScores = Arrays.asList(studentScores);
+
+        Stream<String> namesStartingWithA = arrayListOfNames.stream();
+
+
 
     }
 }
